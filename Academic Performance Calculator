@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+
+int main() {
+
+    int a, b ,c ,d ,e;
+    int TotalMarks;
+    float AverageMarks, Percentage;
+    
+    scanf("%d %d %d %d %d",&a ,&b ,&c ,&d ,&e);
+    
+    TotalMarks = a + b + c + d + e;
+        
+    AverageMarks = TotalMarks / 5.0;
+        
+    Percentage = (TotalMarks / 500.0) * 100.0;   
+    
+    printf("%d %.2f %.2f", TotalMarks, AverageMarks, Percentage);
+    
+    return 0;
+}
