@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+#include <math.h>
+
+
+int main() {
+
+    int a,b,c,d;
+    float EucDis;
+    
+    scanf("%d %d %d %d", &a, &b ,&c ,&d);
+    
+    EucDis = sqrt(((a-c) * (a-c)) + ((b-d) * (b-d)));
+    
+    printf("%0.2f\n",EucDis);
+    
+    
+    
+    return 0;
+}
